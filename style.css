@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #header {
@@ -36,10 +38,10 @@
   bottom: 20px;
   color: white;
   padding-left: 10px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
-#logo{
+#logo {
   cursor: pointer;
 }
 
@@ -64,11 +66,11 @@
   display: flex;
 }
 
-.contact-link p{
+.contact-link p {
   padding-left: 90px;
 }
 
-.contact-link a{
+.contact-link a {
   color: white;
 }
 
@@ -79,23 +81,38 @@
   font-weight: 600;
 }
 
-.social-link{
+.social-link {
   padding-right: 85px;
 }
 
-.social-link i{
+.social-link i {
   color: white;
   padding-right: 30px;
 }
 
-a{
+.title{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
+.title h1{
+  font-size: 65px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.title span{
+  font-size: 20px;
+}
+
+a {
   text-decoration: none;
 }
 
-.social-link a{
+.social-link a {
   color: white;
 }
-
 
 .contact-link i,
 p {
