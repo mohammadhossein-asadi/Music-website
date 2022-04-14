@@ -51,18 +51,33 @@
 .contact-link {
   width: 50%;
   display: flex;
-  justify-content: space-evenly;
+}
+
+.contact-link p{
+  padding-left: 90px;
 }
 
 .social {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.social-link{
+  padding-right: 85px;
 }
 
 .social-link i{
   color: #fff;
   padding-right: 30px;
 }
+
+.social-link span{
+  color: #fff;
+  border-left: 2px solid #fff;
+  border-spacing: ;
+}
+
 
 .contact-link i,
 p {
