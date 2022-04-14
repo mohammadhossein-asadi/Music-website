@@ -33,17 +33,42 @@
   padding-left: 10px;
 }
 
-#logo span{
-    padding-bottom: 10px
+#logo span {
+  padding-bottom: 10px;
 }
 
-#pages{
-    padding-top: 24px;
+#pages {
+  padding-top: 24px;
 }
 
 #pages a {
-    padding-left: 50px;
+  padding-left: 50px;
   color: white;
   text-decoration: none;
   font-size: 18px;
+}
+
+.contact-link {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link i{
+  color: #fff;
+  
+}
+
+.contact-link i,
+p {
+  color: #fff;
+}
+
+.contact-link i {
+  padding-right: 13px;
 }
