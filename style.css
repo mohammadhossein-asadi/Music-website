@@ -90,25 +90,34 @@
   padding-right: 30px;
 }
 
-.title{
+.title {
   color: white;
   text-align: center;
   position: relative;
   top: 25%;
 }
 
-.title h1{
+.title h1 {
   font-size: 65px;
   font-family: "Gloria Hallelujah", cursive;
 }
 
-.title span{
+.title span {
   font-size: 20px;
+  font-weight: 500;
 }
 
-.title button{
-  padding: 15px 45px;
+.title button {
+  margin-top: 25px;
+  padding: 15px 55px;
   border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgb(157, 8, 157);
+  background: linear-gradient(90deg, rgba(157, 8, 157, 1) 35%, rgba(3, 94, 181, 1) 100%);
 }
 
 a {
